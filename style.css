@@ -1,0 +1,830 @@
+
+*{
+  
+
+}
+
+
+
+/*----------------Navigation Bar----------------*/
+
+header{
+    display: flex;
+    padding: 0 5%;
+    background-color: rgb(255,97,0);
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 140px;
+    justify-content: center;
+    display: none;
+}
+
+/* this img is the logo */
+
+header>img{
+    height: 130px;
+    width: 180px;
+    align-self: center;
+    justify-self: left;
+}
+
+nav ul{
+    display: flex;
+    height: 40px;
+    width: 60%;
+    list-style: none;
+    justify-content: center;
+    align-self: center;
+}
+
+nav li{
+    width: 10%;
+    padding: 3px;
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+nav a{
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    color: black;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/* the following is for the search bar and shopping bag icon */
+
+nav .icons{
+    width: 5%;
+} 
+
+nav img{
+    align-self: center;
+    width: 50%;
+    justify-self: center;
+}
+/*this is the nav "book online button */
+nav button{
+    justify-self: flex-end;
+    width: 8%;
+    background-color: rgb(255,97,0);
+    align-self: center;
+
+}
+
+/*----------------------hamburgerMenu--------------------------*/
+
+
+
+
+/*----------------Body Section Starts Here----------------*/
+
+body{
+    font-size: 16px;
+    color: black;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+/*This button is class if for multiply buttons on the page*/
+.button{
+    float: left;
+    width:200px;
+    height: 50px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*----------------First Section Starts Here----------------*/
+
+.firstsection{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 1100px;
+    margin-top: 0;
+    flex-wrap: wrap;
+    background-color: rgb(255,97,0);
+    border-bottom-left-radius: 75%;
+}
+
+.firstmain{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 65%;
+}
+
+.firstSectionInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 38%;
+    height: 100%;
+    padding-left: 12%;
+}
+
+.firstmain h1{
+    height: 30%;
+    width: 70%;
+    font-size: 5.5em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.firstmain h2{
+    width: 70%;
+    font-size: 1.5em;
+    height: 100px;
+}
+
+
+.firstsection section>h2{
+ font-size: 1.5em;
+ text-align: center;
+}
+
+/*the coupoun in the first section*/
+
+.firstsection .coupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 35%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.coupon h4, .coupon h3{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.firstsection .coupon button{
+    text-align: center;
+    align-self: center;
+}
+
+
+/* this is the large image in the first section */
+
+.largePhoto{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.largePhoto img{
+    height: 100%;
+    width: 85%;
+}
+
+/*this is the second part of the main section that includes the three icons with details*/
+
+.secondmain{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    height: 35%;
+    background-color: white;
+}
+
+.secondmain section{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondmain h3, .secondmain p{
+    text-align: center;
+    padding: 0 10%;
+}
+
+.secondmain h3{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.secondmain p{
+    font-size: 1.2em;
+}
+.secondmain img{
+    height: 20%;
+    width: 20%;
+    margin: 20px 40%;
+    align-self: center;
+}
+
+/*---------------------------------------First section ends here---------------------------------------*/
+
+
+/*----------------Second Section Starts Here----------------*/
+
+.momentum{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1525px;
+    background-color: rgb(111,162,17);
+}
+
+.momentum h2{
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+
+.momentum p{
+    font-size: 1.2em;
+}
+
+.momentum .momentumfirst{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(245,217,178);
+}
+
+.momentum .momentumText{
+    padding: 0 2.5%;
+}
+
+.momentumfirst section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+
+.momentumfirst section img{
+    width: 80%;
+    height: 80%;
+    justify-self: center;
+    align-self: center;
+}
+
+/*--------------stylist/employee section---------------*/
+
+.stylist{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    flex-direction: row;
+}
+
+.stylist section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+    height: 100%;
+}
+
+.stylist section img{
+    height: 70%;
+    width: 60%;
+    align-self: center;
+}
+
+.momentum .stylist h3{
+    align-self: center;
+    width: 40%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: solid black 1px;
+}
+
+/*-------------------------last section in the second section--------------------------*/
+
+.offer{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(245,217,178);
+}
+
+.offer section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+}
+
+.offer .offerText{
+  padding-left: 10%;
+  width: 35%;
+}
+
+.offer h3{
+    font-size: 1.4em;
+}
+
+.offer span{
+    font-size: 2em;
+}
+
+.offer h3, .offer span{
+    text-transform: uppercase;
+}
+
+.offer section img{
+    height: 100%;
+    width: 75%;
+
+}
+
+.offer button{
+    margin-top: 30px;
+}
+
+/*-------------------------------------last section-------------------------------------------*/
+#lookbook{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+#lookbook .lookbookfirst{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+#lookbook h2{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#lookbook section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33.33%;
+    height: 90%;
+}
+
+#lookbook .onetype{
+    width: 85%;
+    height: 30%;
+    margin: 5% 0;
+    align-self: center;
+}
+
+#lookbook .twotype{
+    width: 85%;
+    height: 50%;
+    margin: 5% 0;
+    align-self: center;
+}
+
+/*--------------------------------------------------------Media Queries-----------------------------------------------------------*/
+@media screen and (max-width: 500px){
+
+    body .firstsection{
+        height: 1400px; /**/
+    }
+    
+    .firstsection .firstmain{
+        height: 60%; /**/
+    }
+
+    .firstsection .secondmain{
+        flex-direction: column;
+        height: 40%; /**/
+    }
+
+    .secondmain img{
+        height: 20%; /**/
+        width: 20%; /**/
+        margin:0;
+        margin-top: 10px;
+    }
+
+    .secondmain section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        height: 28%;
+    }
+
+    .momentum .offer button{
+        margin-top: 30px;
+        width: 40%;
+    }
+/*----------------Second Section Starts Here----------------*/
+
+
+/*--------------stylist/employee section---------------*/
+
+.stylist{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    flex-direction: column; /**/
+}
+
+.stylist section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /**/
+    height: 33%; /**/
+}
+
+.momentum .stylist section img{
+    height: 40%; /**/
+    width: 25%; /**/
+    align-self: center;
+}
+
+.momentum .stylist h3{
+    align-self: center;
+    width: 40%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: solid black 1px;
+}
+
+/*-------------------------last section in the second section--------------------------*/
+
+.offer{
+    display: flex;
+    flex-direction: column; /**/
+    width: 100%;
+    height: 30%;
+    background-color: rgb(245,217,178);
+}
+
+.offer section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;  /**/
+    width: 100%; /**/
+}
+
+.offer .offerText{
+  display: flex;
+  width: 100%;  /**/
+  padding: 0; /**/
+}
+
+.offer h3{
+    font-size: 1.4em;
+}
+
+.offer span{
+    font-size: 2em;
+}
+
+.offer h3, .offer span{
+    text-transform: uppercase;
+    align-self: center; /**/
+}
+
+.offer section img{
+    height: 100%;
+    width: 75%;
+
+}
+
+.offer button{
+    margin-top: 30px;
+    align-self: center; /**/
+    width: 40%; /**/
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  
+    .offer section img{
+        align-self: center;
+        height: 80%;
+        width: 75%;
+    
+    }
+
+    .momentum .offer .offerImage{
+        display: flex;
+        height: 100%;
+        width: 75%;
+        justify-content: end;
+    
+    }
+ 
+}
+
+@media screen and (max-width: 1245px){
+
+    .firstmain h1{
+        font-size: 4em; /**/
+    }
+    
+   .firstmain button{
+       width: 45%;
+   }
+}
+
+@media screen and (max-width: 1014px){
+
+    .momentum .stylist h3{
+        align-self: center;
+        width: 50%;
+        font-size: 0.8em;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        border: solid black 1px;
+    }
+    
+}
+
+@media screen and (max-width: 1245px){
+
+    .firstmain button{
+        align-self: center; /**/
+        display: none; /**/
+    }
+    
+}
+
+@media screen and (max-width: 947px){
+
+    .secondmain h3{
+        font-size: 1.2em;
+    }
+    
+    .secondmain p{
+        font-size: 1em;
+    }
+    
+}
+@media screen and (max-width: 947px){
+    .firstmain h1{
+        font-size: 3.5em; /**/
+    
+    }
+}
+
+@media screen and (max-width: 797px){
+    .firstmain h1{
+        font-size: 3.3em; /**/
+    
+    }
+    .stylist section img{
+        height: 50%; /**/
+        width: 55%; /**/
+        align-self: center;
+    }
+
+    .momentum .stylist h3{
+        align-self: center;
+        width: 50%;
+        font-size: 1em;
+        text-transform: uppercase;
+        border: solid black 1px;
+    }
+}
+@media screen and (max-width: 760px){
+    .secondmain h3{
+        font-size: 1em;
+    }
+    
+    .secondmain p{
+        font-size: 0.8em;
+    }
+
+
+.firstsection .coupon{
+    width: 60%;
+    height: 25%;
+    margin-top: 20px;
+}
+
+.coupon h4, .coupon h3{
+    font-size: 1em;
+    margin: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.firstmain h2{
+    width: 90%;
+    font-size: 1.2em;
+    height: 100px;
+}
+
+.momentum h2{
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.momentum p{
+    font-size: 1.0em;
+}
+
+
+}
+
+@media screen and (max-width: 755px){
+    .firstmain h1{
+        font-size: 3.0em; /**/
+    
+    }
+
+}
+
+@media screen and (max-width: 690px){
+    .firstsection{
+        height: 1000px; /**/
+    }
+    
+    .firstmain{
+        justify-content: center;
+        flex-direction: column; /**/
+        flex-wrap: wrap; /**/
+        height: 80%; /**/
+    }
+    
+    .firstSectionInfo{
+        width: 100%; /**/
+        height: 50%; /**/
+        padding: 0; /**/
+    }
+    
+    
+    .firstmain h1{
+        height: 30%; /**/
+        width: 70%;  /**/
+        font-size: 4.5em; /**/
+        align-self: center; /**/
+        margin-bottom: 20px;
+    }
+    
+    .firstmain h2{
+        width: 60%; /**/
+        font-size: 1em; /**/
+        height: 10%; /**/
+        align-self: center; /**/
+    }
+    
+    
+    /*the coupoun in the first section*/
+    
+    .firstsection .coupon{
+        width: 35%; /**/
+        height: 20%; /**/
+        margin-top: 10px; /**/
+        align-self: center; /**/
+    }
+    
+    .coupon h4, .coupon h3{
+        font-size: 1em; /**/
+        margin-bottom: 10px; /**/
+        text-align: center;
+    }
+    
+    .firstsection .coupon button{
+        text-align: center;
+        align-self: center;
+    }
+    
+    
+    /* this is the large image in the first section */
+    
+    .largePhoto{
+        display: flex;  /**/
+        justify-content: center;  /**/
+        width: 100%;  /**/
+        height: 50%; /**/
+    }
+    
+    .largePhoto img{
+        height: 100%;
+        width: 50%;
+    }
+    
+    
+    
+    /*----------------Body Section Starts Here----------------*/
+    
+    body{
+        font-size: 12px;
+    }
+
+    /*This button is class if for multiply buttons on the page*/
+    .button{
+    width: 100px;
+    padding: 12px;
+}
+
+
+    .secondmain img{
+    height: 10%; /**/
+    width: 10%; /**/
+}
+
+    .secondmain{
+    height: 20%; /**/
+}
+
+.momentum{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1775px; /**/
+    background-color: rgb(111,162,17);
+}
+
+.momentum h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    align-self: center; /**/
+    text-align: center; /**/
+
+}
+
+.momentum p{
+    font-size: 1.2em;
+}
+
+.momentum .momentumfirst{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(245,217,178);
+
+}
+
+.momentum .momentumText{
+    text-align: center;
+    padding: 0; /**/
+}
+
+.momentumfirst section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; /**/
+    height: 50%; /**/
+}
+
+.momentumText button{
+    align-self: center; /**/
+    width: 30%; /**/
+}
+
+
+.momentumfirst section img{
+    width: 80%;
+    height: 80%;
+    justify-self: center;
+    align-self: center;
+}
+
+.offer button{
+    margin-top: 30px;
+    width: 60%;
+}
+
+
+}
+@media screen and (max-width: 674px){
+.stylist section img{
+    height: 45%; /**/
+    width: 70%; /**/
+    align-self: center;
+}
+}
