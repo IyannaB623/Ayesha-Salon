@@ -1,6 +1,6 @@
 # Ayesha-Salon
 	
-:scissors: :nail_care: :sauna_woman:
+:scissors: :nail_care: :sauna_woman: :orange_heart:
 
 A salon website layout for style only. Behavior (JS) has not been added to this project. The most interesting part of this project was using flex to create the image collage. 
 
